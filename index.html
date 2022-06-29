@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>No-Spa</title>
+</head>
+<body>
+    <div class="es-no-spa" id="es-no-spa">
+        <div class="es-kv">
+            <div class="es-kv__title">
+                <h1>Silniejsza niż Twój ból brzucha</h1>
+            </div>
+            <div class="es-kv__img">
+                <img src="/img/kv_packshot.png" alt="">
+            </div>
+            <div class="es-kv__content">
+                <div class="es-kv__single es-kv__single--left">
+                    <img src="/img/time_icon.png" alt="" class="es-kv__icon">
+                    <p class="es-kv__text">Szybko się wchłania</p>
+                </div>
+                <div class="es-kv__single es-kv__single--right">
+                    <img src="/img/icon_2.png" alt="" class="es-kv__icon">
+                    <p class="es-kv__text">Uderza w źródło bólu<sup>1</sup></p>
+                </div>
+            </div>
+        </div>
+        <div class="es-intro">
+            <div class="es-intro__content">
+                <p class="es-intro__text">
+                    Wybierz sprawdzony lek <br>
+                    na różne bóle brzucha
+                    <br>
+                    <span>- na rynku już ponad 50 lat<sup>*</sup>!</span>
+                </p>
+            </div>
+        </div>
+        <div class="es-effects">
+            <div class="es-effects__container es-effects__container--question">
+                <img src="/img/question-mark.png" alt="">
+                <p class="es-effects__title">Czy wiesz, że wiele bólów brzucha wywołują
+                    skurcze?
+                </p>
+                <p class="es-effects__text">
+                    Ponad 50% polskich pacjentów leczy skurczowe bóle brzucha <br> zwykłymi lekami 
+                    przeciwbólowymi. Ale brzuch boli inaczej...
+                </p>
+            </div>
+            <div class="es-effects__container">
+                <div class="es-effects__icons">
+                    <div class="es-effects__single es-effects__single--left">
+                       <p>Działa w miejscu bólu</p>
+                       <img src="/img/arrow_right.png" alt="" class="es-effects__single--arrow_left">
+                       <img src="/img/arrow_right.png" alt="" class="es-effects__single--arrow_left">
+                    </div>
+                    <div class="es-effects__single">
+                        <img src="/img/icon_3.png" alt="" class="es-effects__single--human">
+                    </div>
+                    <div class="es-effects__single es-effects__single--right">
+                       <img src="/img/arrow_left.png" alt="" class="es-effects__single--arrow_right">
+                       <img src="/img/arrow_left.png" alt="" class="es-effects__single--arrow_right">
+                       <p>Likwiduje skurcz</p>
+                    </div>
+                </div>
+                <p class="es-effects__text">
+                    Dlatego potrzebujesz eksperckiego rozwiązania, <br>
+                    które zadziała dokładnie w miejscu bólu, likwidując skurcz.
+                </p>
+            </div>
+        </div>
+        <div class="es-cause">
+            <div class="es-cause__title es-sections__title">
+                <p>na różne przyczyny bólu brzucha:</p>
+            </div>
+            <div class="es-cause__container">
+                <div class="es-cause__icons" id="es-cause__icons">
+                    <a href="#btnPeriod" id="btnStres"><img src="/img/cause_icon1.png" alt="stres"><p>STRES &#8250</p></a>
+                    <a href="#btnPeriod" id="btnFood"><img src="/img/cause_icon2.png" alt="jedzenie"><p>JEDZENIE &#8250</p></a>
+                    <a href="#btnPeriod" id="btnBladder"><img src="/img/cause_icon3.png" alt="ZAPALENIE PĘCHERZA"><p>ZAPALENIE PĘCHERZA &#8250</p></a>
+                    <a href="#btnPeriod" id="btnBowels"><img src="/img/cause_icon4.png" alt="ZESPÓŁ JELITA DRAŻLIWEGO"><p>ZESPÓŁ JELITA DRAŻLIWEGO &#8250</p></a>
+                    <a href="#btnPeriod" id="btnPeriod"><img src="/img/cause_icon5.png" alt="MIESIĄCZKA"><p>MIESIĄCZKA &#8250</p></a>
+                </div>
+
+                <div class="es-cause__content" id="es-cause__content">
+                    <!-- text to this section is in JavaScript file -->
+                    <div class="es-cause__upper">
+                         <h2 class="es-cause__name"></h2>
+                         <a href="#es-cause__icons" id="closeBtn">&#9587</a>
+                         
+                    </div>
+                    <p class="es-cause__text"></p>
+                    <p class="es-cause__claims"></p>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="es-doze">
+            <div class="es-doze_title es-sections__title">
+                <p>20 wskazań w jednym leku. Dla niej i dla niego.</p>
+            </div>
+            <div class="es-doze__img">
+                <img src="/img/usage-panel.png" alt="">
+            </div>
+            <div class="es-doze__content">
+                <div class="es-doze__container">
+                    <button type="button" class="es-doze__btn es-toggleBtn">dawkowanie
+                        <img src="/img/arrow-down.png" alt="" id="es-doze__btnImg" class="es-toggleImg">
+                    </button>
+                    <div class="es-doze__box es-contentBox">
+                        <div class="es-doze__single es-doze__single--upper">
+                            <div class="es-doze__left">
+                                <p>Dorośli:</p>
+                            </div>
+                            <div class="es-doze__right">
+                                <img src="/img/tab_icon.png" alt="">
+                                <p>x1</p>
+                                <p>2-3x na dobę</p>
+                            </div>
+                        </div>
+                        <div class="es-doze__single">
+                            <div class="es-doze__left">
+                                <p>Dzieci powyżej 12 roku życia:</p>
+                            </div>
+                            <div class="es-doze__right">
+                                <img src="/img/tab_icon.png" alt="">
+                                <p>x1</p>
+                                <p>1-2x na dobę</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="es-video">
+            <div class="es-video_title es-sections__title">
+                <p>Obejrzyj video!</p>
+            </div>
+            <div class="es-video__videoCnt">
+                <div class="es-video__container">
+                  <iframe
+                    class="es-video__iframe"
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/dOa3emJIsrs"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="es-production">
+            <h1 class="es-production__title">
+                Wyprodukowano w Polsce
+            </h1>
+            <div class="es-production__images">
+                <img src="/img/kv_packshot.png" alt="" class="es-production__img">
+                <img src="/img/city_icon.png" alt="" class="es-production__icon">
+            </div>
+            <div class="es-production__content">
+                <div class="es-production__container">
+                    <button type="button" class="es-production__btn es-toggleBtn">skład
+                        <img src="/img/arrow-down.png" alt="" id="es-production__btnImg" class="es-toggleImg">
+                    </button>
+                    <div class="es-production__box es-contentBox">
+                        <div class="es-production__single es-production__single--upper">
+                            <div class="es-production__text">
+                                <p> <strong>Każda tabletka powlekana zawiera 80 mg drotaweryny 
+                                    chlorowodorku</strong>  (Drotaverini hydrochloridum).</p>
+                            </div>
+                        </div>
+                        <div class="es-production__single es-production__single--upper">
+                            <div class="es-production__text">
+                                <p> <strong>Wykaz substancji pomocniczych: <br></strong>  
+                                    Laktoza jednowodna, Skrobia kukurydziana, 
+                                    Powidon, Magnezu stearynian, Talk
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="es-production__single">
+                            <div class="es-production__text">
+                                <p> 
+                                    <strong>Skład otoczki Opadry II yellow 85G32207: <br></strong>
+                                    Alkohol poliwinylowy, Talk, Żółcień chinolinowa
+                                     lak (E 104), Makrogol, Tytanu dwutlenek (E 171), 
+                                     Lecytyna (sojowa),  Żelaza tlenek żółty
+                                     (E 172),  Żelaza tlenek czerwony (E 172)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="es-cross">
+            <div class="es-cross_title es-sections__title">
+                <p>Rodzina leków marki no-spa:</p>
+            </div>
+            <div class="es-cross__main">
+                <div class="es-cross__single es-cross__single--main">
+                    <div class="es-cross__img es-cross__img--main">
+                        <img src="/img/no-spa-max.png" alt="no-spa max">
+                    </div>
+                    <div class="es-cross__content">
+                        <p class="es-cross__name">no-spa max</p>
+                        <p class="es-cross__capacity">20 tabletek</p>
+                        <a href="https://www.ceneo.pl/21089650" target="_blank" class="es-cross__link">sprawdź</a>
+                    </div>
+                </div>
+            </div>
+            <div class="es-cross__secondary">
+                <div class="es-cross__single">
+                    <div class="es-cross__img">
+                        <img src="/img/no-spa-20.png" alt="no-spa 20 tabletek">
+                        <img src="/img/coss_icon1.png" alt="" class="es-cross__icon">
+                    </div>
+                    <div class="es-cross__content">
+                        <p class="es-cross__name">no-spa</p>
+                        <p class="es-cross__capacity">20 tabletek</p>
+                        <a href="https://www.ceneo.pl/4776120" target="_blank" class="es-cross__link">sprawdź</a>
+                    </div>
+                </div>
+                <div class="es-cross__single">
+                    <div class="es-cross__img">
+                        <img src="/img/no-spa-40.png" alt="no-spa 40 tabletek">
+                    </div>
+                    <div class="es-cross__content">
+                        <p class="es-cross__name">no-spa</p>
+                        <p class="es-cross__capacity">40 tabletek</p>
+                        <a href="https://www.ceneo.pl/13117398" target="_blank" class="es-cross__link">sprawdź</a>
+                    </div>
+                </div>
+                <div class="es-cross__single">
+                    <div class="es-cross__img">
+                        <img src="/img/no-spa-60.png" alt="no-spa 60 tabletek">
+                        <img src="/img/cross_icon2.png" alt="" class="es-cross__icon">
+                    </div>
+                    <div class="es-cross__content">
+                        <p class="es-cross__name">no-spa</p>
+                        <p class="es-cross__capacity">60 tabletek</p>
+                        <a href="https://www.ceneo.pl/60108625" target="_blank" class="es-cross__link">sprawdź</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="es-footer">
+            <div class="es-footer__single">
+                <p> 1. Cichy W. Bóle brzucha –postępowanie pasywne czy aktywne? 
+                    Świat Medycyny i Farmacji, Lekarz Rodzinny, kwiecień 2018: 6-18. 2. 
+                    Rai RR et al Comparative evaluation of efficacy and safety of drotaverine
+                     versus mebeverine in irritable bowel syndrome: A randomized double-blind 
+                     controlled study. 
+                    Saudi J Gastroenterol. 2021 May-Jun; 27(3): 136–143.
+                    <br><br>* Ból pochodzenia skurczowego. Dane historyczne, 
+                    data pierwszej rejestracji w Polsce 1964. 1 ChPL NO-SPA® Max 80 mg, 
+                    04.2022. NO-SPA® Max, 80 mg, tabletki powlekane; każda tabletka powlekana 
+                    zawiera 80 mg drotaweryny chlorowodorku (Drotaverini hydrochloridum). 
+                    Substancje pomocnicze o znanym działaniu: każda tabletka powlekana zawiera
+                    104 mg laktozy jednowodnej, 1,04 mg żółcieni chinolinowej lak (E 104) oraz 
+                    0,29 mg lecytyny sojowej. Wskazania do stosowania: stany skurczowe mięśni 
+                    gładkich związane z chorobami dróg żółciowych: kamicą dróg żółciowych,
+                    zapaleniem pęcherzyka żółciowego, zapaleniem okołopęcherzykowym, zapaleniem
+                    przewodów żółciowych, zapaleniem brodawki Vatera; stany skurczowe mięśni 
+                    gładkich dróg moczowych: kamica nerkowa, kamica moczowodowa, zapalenie
+                    miedniczek nerkowych, zapalenie pęcherza moczowego, bolesne parcie na mocz.
+                    Jako leczenie wspomagające może zostać użyta bezpiecznie i z pożądanym 
+                    skutkiem: w stanach skurczowych mięśni gładkich przewodu pokarmowego, 
+                    chorobie wrzodowej żołądka i dwunastnicy, zapaleniu żołądka, zapaleniu jelit,
+                    zapaleniu okrężnicy, stanach skurczowych wpustu i odźwiernika żołądka, 
+                    zespole jelita drażliwego, zaparciach na tle spastycznym i wzdęciach jelit,
+                    zapaleniu trzustki; w schorzeniach ginekologicznych: bolesnym 
+                    miesiączkowaniu. Przeciwwskazania: nadwrażliwość na substancję czynną,
+                    orzeszki ziemne, soję lub którąkolwiek substancję pomocniczą; ciężka
+                    niewydolność wątroby, nerek, niewydolność krążenia; blok 
+                    przedsionkowo-komorowy II-III stopnia; nie stosować u dzieci w wieku
+                    poniżej 12 lat. Podmiot odpowiedzialny: Chinoin Pharmaceutical 
+                    and Chemical Works Private Co. Ltd., Węgry (ChPL 04.2022).</p>
+            </div>
+            <div class="es-footer__single es-footer__single--logo">
+                <p>mat-pl-2100478-1.0.02.2021</p>
+                <img src="/img/sanofi_logo.png" alt="sanofi">
+            </div>
+            <div class="es-footer__single es-footer__single--last">
+                <p>Przed użyciem zapoznaj się z ulotką, która zawiera wskazania, przeciwskazania,
+                    dane dotyczące działań niepożądanych i dawkowanie oraz informacje dotyczące stosowania produktu
+                    leczniczego, bądź skonsultuj się z lekarzem lub farmaceutą,
+                    gdyż każdy lek niewłaściwie stosowany zagraża Twojemu życiu lub zdrowiu.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
