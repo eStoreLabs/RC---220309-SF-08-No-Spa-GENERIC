@@ -267,7 +267,7 @@ html {
   }
 }
 .es-no-spa #es-no-spa {
-  font-family: "GothamBld", sans-serif;
+  font-family: "Gotham", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
@@ -291,7 +291,7 @@ h3,
 h4,
 h5,
 p {
-  font-family: "GothamBld", sans-serif;
+  font-family: "Gotham", sans-serif;
   color: #fff;
 }
 
@@ -684,7 +684,7 @@ p {
   padding: 40px 0;
   text-transform: uppercase;
   letter-spacing: -2px;
-  font-family: "GothamBld", sans-serif;
+  font-family: "Gotham", sans-serif;
 }
 .es-production__images {
   width: 100%;
