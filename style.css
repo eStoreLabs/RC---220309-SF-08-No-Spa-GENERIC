@@ -544,6 +544,8 @@ p {
 .es-cause .es-cause__active {
   display: flex;
   flex-direction: column;
+  -webkit-animation: show 2s forwards;
+          animation: show 2s forwards;
 }
 
 .es-doze {

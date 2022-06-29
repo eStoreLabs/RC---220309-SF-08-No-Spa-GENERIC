@@ -448,6 +448,7 @@ html {
     .es-cause__active{
       display: flex;
       flex-direction: column;
+      animation: show 2s forwards;
     }
   }
   .es-doze{
