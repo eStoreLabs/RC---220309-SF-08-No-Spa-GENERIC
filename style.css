@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Gotham Black", sans-serif;
+  font-family: "Gotham", sans-serif;
   src: url("./fonts/Gotham-Black.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
@@ -11,13 +11,13 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "GothamMd";
+  font-family: "Gotham";
   src: url("./fonts/Gotham-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gotham Book", sans-serif;
+  font-family: "Gotham", sans-serif;
   src: url("./fonts/Gotham-Book.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
