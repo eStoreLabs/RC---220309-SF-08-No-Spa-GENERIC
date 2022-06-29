@@ -5,7 +5,8 @@
 ![Design preview for the Personal portfolio](./screenshot/effulgent-vacherin-5a6739.netlify.app_.png)
 
 ## CONTACT PERSON
-Laura Chaberska
+Laura Chaberska 
+laura.chaberska@estorelabs.com
 
 ## CODED BY 
 
