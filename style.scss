@@ -392,6 +392,7 @@ html {
         padding: 40px;
         cursor: pointer;
         text-align: center;
+        position: relative;
         img{
           animation: es-pulse3 2s infinite;
         }
@@ -399,6 +400,7 @@ html {
           color: $very-dark-purple;
           font-weight: bold;
           font-size: 20px;
+          
           span{
             animation: arrow_move2 2s infinite;
             font-size: 30px;
@@ -406,6 +408,14 @@ html {
         }
         &:hover{
           opacity: 0.7;
+        }
+        &::before{
+          content: 'kliknij i sprawdź';
+          font-size: 14px;
+          position: absolute;
+          bottom: 25%;
+          left:30%;
+          animation: es-pulse 2s infinite;
         }
       }
     }
@@ -447,7 +457,6 @@ html {
         transform: scale(1.2);
       }
      }
-     
     }
     .es-cause__active{
       display: flex;
