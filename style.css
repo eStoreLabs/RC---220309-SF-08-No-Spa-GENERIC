@@ -301,6 +301,7 @@ p {
   text-transform: uppercase;
   padding: 0 20px;
   letter-spacing: -2px;
+  font-size: 40px;
 }
 .es-kv__img {
   width: 100%;
