@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "Gotham", sans-serif;
+  font-family: "Gotham";
   src: url("./fonts/GothamCondensedBold.otf") format("opentype");
 }
   
@@ -154,7 +154,7 @@ html {
       }
 .es-no-spa #es-no-spa{
     font-family: $regular;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 1.2;
     max-width: 960px;
@@ -199,13 +199,12 @@ html {
         background-repeat: no-repeat;
         background-size: cover;
         width: 90%;
-        padding: 10px; 
-        margin: 20px 0;
+        padding: 0px; 
+        margin: 10px 0;
         h1{
             text-transform: uppercase;
-            padding: 0 20px;
-            letter-spacing: -2px;
-            font-size: 40px;
+            padding: 0 30px;
+            font-size: 50px;
         }
     }
     &__img{
@@ -243,9 +242,8 @@ html {
     }
     &__text{
         margin: 0 20px;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bolder;
-        letter-spacing: -1px;
     }
   }
   .es-intro{
@@ -278,10 +276,9 @@ html {
     }
     &__text{
         font-weight: bolder;
-        font-size: 25px;
-        letter-spacing: -1px;
+        font-size: 35px;
         span{
-            font-size: 20px;
+            font-size: 30px;
         }
     }
   }
@@ -304,7 +301,7 @@ html {
             position: absolute;
             left: 6%;
             top:-70px;
-            height: 200px;
+            height: 250px;
             animation: es-pulse 2s infinite;    
         }
     }
@@ -312,14 +309,12 @@ html {
     }
     &__title{
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: bold;
-        letter-spacing: -1.5px;
     }
     &__text{
-        font-size: 16px;
+        font-size: 26px;
         font-weight: bold;
-        letter-spacing: -1px;
         text-align: center;
         opacity: .8;
     }
@@ -350,6 +345,7 @@ html {
         p{
             text-transform: uppercase;
             font-weight: bold;
+            font-size: 25px;
             margin: 0 20px;
         }
     }
@@ -384,6 +380,7 @@ html {
         p{
           color: $very-dark-purple;
           font-weight: bold;
+          font-size: 20px;
         }
         
       }
@@ -395,14 +392,21 @@ html {
       max-width: 600px;
       margin: 0 auto;
       padding: 30px;
-      h2,p{
-        color: $very-dark-purple;
-      }
+     
+    }
+    &__name{
+      font-size: 30px;
+      color: $very-dark-purple;
+    }
+    &__text{
+      color: $very-dark-purple;
+        font-size: 20px;
     }
     &__claims{
-      font-size: 10px;
+      font-size: 15px;
       border-top: 2px solid $very-dark-purple;
       padding-top: 5px;
+      color: $very-dark-purple;
     }
     &__upper{
       display: flex;
@@ -460,6 +464,7 @@ html {
         color: $white;
         text-transform: uppercase;
         font-weight: bold;
+        font-size: 20px;
         width: 100%;
         padding: 10px;
         cursor: pointer;
@@ -493,10 +498,14 @@ html {
           }
         }
     }
+    &__left{
+      font-size: 20px;
+    }
     &__right{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 20px;
         p{
             margin:  0 10px ;
         }
@@ -514,7 +523,7 @@ html {
     background-image: url(/img/kv_title_bg.png);
     text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     width: 90%;
   }
@@ -557,8 +566,8 @@ html {
     text-align: center;
     padding: 40px 0;
     text-transform: uppercase;
-    letter-spacing: -2px;
     font-family:$regular;
+    font-size: 40px;
   }
   &__images{
     width: 100%;
@@ -597,6 +606,7 @@ html {
     color: $white;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
     width: 100%;
     padding: 10px;
     cursor: pointer;
@@ -613,6 +623,7 @@ html {
 
 &__single{
     padding: 5px 30px;
+    font-size: 20px;
     &--upper{
       position: relative;
       &::after{
@@ -689,7 +700,6 @@ html {
       color: $very-dark-purple;
       font-size: 40px;
       font-weight: bold;
-      letter-spacing: -2px;
       text-transform: uppercase;
       margin-bottom: 0;
     }
@@ -697,7 +707,6 @@ html {
       color: $very-dark-purple;
       font-size: 30px;
       font-weight: bold;
-      letter-spacing: -2px;
       margin-top: 0;
     }
     &__link{
@@ -709,6 +718,7 @@ html {
       padding: 5px 40px;
       border-radius: 50px;
       animation:es-pulse 2s infinite, shadow 2s infinite;
+      font-family: $regular;
       &:hover{
        filter: contrast(1.5);
       }
@@ -770,12 +780,27 @@ background: linear-gradient(180deg, rgba(78,38,99,1) 0%, rgba(91,55,112,1) 35%, 
   @media screen and (max-width: 561px){
     .es-kv{
         &__title{
-            font-size: 10px;
+            width: 100%;
+            background-image: none;
+            background-color: $dark-purple;
+            h1{
+              font-size: 30px;
+              text-align: center;
+            }
         }
         &__content{
             display: flex;
             flex-direction: column;
         } 
+        &__single{
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+        }
+        &__text{
+          text-align: center;
+        }
+        
     }
     .es-intro{
         &__content{
