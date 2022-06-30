@@ -842,7 +842,7 @@ p {
   background: linear-gradient(180deg, rgb(78, 38, 99) 0%, rgb(91, 55, 112) 35%, rgb(66, 32, 95) 67%, rgb(66, 32, 95) 84%);
 }
 .es-footer__single {
-  font-size: 10px;
+  font-size: 15px;
   margin: 0 30px;
   position: relative;
   border-top: 2px solid rgba(255, 255, 255, 0.5);
@@ -857,7 +857,7 @@ p {
   border-top: none;
 }
 .es-footer__single--last {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 

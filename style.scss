@@ -735,7 +735,7 @@ html {
   background: rgb(78,38,99);
 background: linear-gradient(180deg, rgba(78,38,99,1) 0%, rgba(91,55,112,1) 35%, rgba(66,32,95,1) 67%, rgba(66,32,95,1) 84%);
   &__single{
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 30px;
     position: relative;
     border-top: 2px solid rgba(255, 255, 255, 0.5);
@@ -749,7 +749,7 @@ background: linear-gradient(180deg, rgba(78,38,99,1) 0%, rgba(91,55,112,1) 35%, 
       border-top: none;
     }
     &--last{
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
     }
     
