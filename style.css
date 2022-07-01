@@ -533,12 +533,14 @@ p {
 }
 .es-cause__icons a::before {
   content: "kliknij i sprawdź";
-  font-size: 14px;
+  font-size: 13px;
   position: absolute;
-  bottom: 25%;
+  bottom: 12%;
   left: 30%;
   -webkit-animation: es-pulse 2s infinite;
           animation: es-pulse 2s infinite;
+  opacity: 0.8;
+  margin: 5px;
 }
 .es-cause__content {
   display: none;
