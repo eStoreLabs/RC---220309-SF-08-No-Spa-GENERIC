@@ -1,34 +1,3 @@
-//scrollReveal
-ScrollReveal({
-    reset: false,
-    distance: '80px',
-    duration: 2500,
-    delay: 400,
-  });
-  
-  ScrollReveal().reveal(
-    '.es-effects__single--left, .es-kv__single--left',
-   {
-    delay: 100,
-    origin: 'left',
-    mobile: true,
-  }
-  );
-
-  ScrollReveal().reveal(
-    '.es-effects__single--right, .es-kv__single--right, .es-kv__title, .es-sections__title',
-    {
-      delay: 100,
-      origin: 'right',
-      mobile: true,
-    }
-  );
-  
-  ScrollReveal().reveal('.es-kv__img', {
-    delay: 100,
-    origin: 'top',
-    mobile: true,
-  });
 
 
   // toggle BTN - doze
